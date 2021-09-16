@@ -1,0 +1,105 @@
+@media only screen and (max-width: 767px){ 
+	.container{ 		
+		width: 100%;
+	}
+	/*header*/
+	.phone-number{
+		display: inline-block;
+		color: #FFF1D9;
+		font-size: 2em;
+		font-weight: bold;
+		margin-left: 10%;
+	}
+	.fa-phone{
+		color: #FF9900;
+		padding-right: 5px;
+	}
+	.logo_presto-white{
+		display: initial;
+		width: 15%
+	}
+	/*carousel*/
+	.owl-nav{
+		display: none;
+	}
+	/*notre-carte*/
+	.ingredient{
+		font-size: 0.9em;
+	}
+	.prix{
+		font-size: 0.9em;
+	}
+	/*a-propos*/
+	/*#pizza-du-moment .pull-left{
+		float: none !important;
+	}
+	#pizza-du-moment .cache{
+		display: initial;
+	}
+	#pizza-du-moment .second-titre{
+		display: none;
+	}*/
+	/*footer*/
+	.adress-content, .tel-content{
+		text-align: center;
+	}
+	.icone{
+		float: none;
+	}
+	.text{
+		vertical-align: top;
+	}
+}
+@media only screen and (max-width: 992px){
+	.container{
+		width: 100%;
+	}
+	.adress-content, .tel-content{
+		text-align: center;
+	}
+	.icone{
+		float: none;
+	}
+	.text{
+		vertical-align: top;
+	}
+}
+@media only screen and (max-width: 1200px){
+	.container{
+		width: 100%;
+	}
+}
+/*=============================*/
+/*@media only screen and (max-width: 1059px){
+	#propos .pull-right, #propos .pull-left{
+		display: none;
+	}
+}*/
+@media only screen and (max-width: 442px){
+	.phone-number{
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-left: 5%;
+	}
+	.logo_presto-white{
+		width: 20%
+	}
+}
+@media only screen and (max-width: 354px){
+	.phone-number{
+		font-size: 1.3em;
+		margin-left: 0%;
+	}
+	.logo_presto-white{
+		width: 25%
+	}	
+}
+@media only screen and (max-width: 320px){
+	.phone-number{
+		font-size: 1.2em;
+		margin-left: 0%;
+	}
+	.logo_presto-white{
+		width: 25%
+	}	
+}
